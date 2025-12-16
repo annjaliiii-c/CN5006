@@ -1,6 +1,6 @@
 mongoose = require('mongoose');
 //app = express();
-const MONGO_URI = 'mongodb+srv://harshyadav10134_db_user:VOGJrdSNjNx5PotY@cluster0.ztg0pvs.mongodb.net/week8';
+const MONGO_URI = 'mongodb+srv://<admin>:<admin>@cluster0.4mt6htd.mongodb.net/week8';
 mongoose.connect(MONGO_URI, {useUnifiedTopology: true,useNewUrlParser: true});
 const db = mongoose.connection;
 db.on('error', function(err)
